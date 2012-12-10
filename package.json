@@ -1,6 +1,6 @@
 {   
   "name" : "nodetime", 
-  "version" : "0.6.4",
+  "version" : "0.6.5",
   "description" : "Performance Profiler and Monitor",
   "author": "Dmitri Melikyan <dmitri@nodetime.com>", 
   "homepage": "http://nodetime.com", 
