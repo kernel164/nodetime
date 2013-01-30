@@ -1,6 +1,6 @@
 {   
   "name" : "nodetime", 
-  "version" : "0.8.0",
+  "version" : "0.8.1",
   "description" : "Performance Profiler and Monitor",
   "author": "Nodetime <devops@nodetime.com>",
   "homepage": "http://nodetime.com", 
@@ -35,8 +35,8 @@
     "request": "2.12.0"
   },
   "optionalDependencies": {
-    "timekit": "*",
-    "v8tools": "*"
+    "timekit": ">=0.1.9",
+    "v8tools": ">=0.2.0"
   },
   "devDependencies": {
     "mocha": "*",
