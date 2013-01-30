@@ -1,26 +1,58 @@
 {   
   "name" : "nodetime", 
-  "version" : "0.6.8",
+  "version" : "0.8.0",
   "description" : "Performance Profiler and Monitor",
-  "author": "Nodetime <devops@nodetime.com>", 
+  "author": "Nodetime <devops@nodetime.com>",
   "homepage": "http://nodetime.com", 
-  "keywords": ["profiler", "profiling", "tracing", "cpu", "heap", "performance", "instrumentation", "response time", "performance", "bottlenecks", "monitoring", "analytics", "metrics", "alerts", "dtrace"],
+  "keywords": [
+    "profiler",
+    "profiling",
+    "tracing",
+    "cpu",
+    "heap",
+    "performance",
+    "instrumentation",
+    "response time",
+    "performance",
+    "bottlenecks",
+    "monitoring",
+    "analytics",
+    "metrics",
+    "alerts",
+    "dtrace"
+  ],
   "contributors": [
   ],
   "main": "./index.js",
   "directories": { 
-    "lib" : "./lib/nodetime"
+    "lib" : "./lib"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/nodetime/nodetime.git"
   }, 
   "dependencies": {
-    "request": "2.11.4"
+    "request": "2.12.0"
   },
   "optionalDependencies": {
     "timekit": "*",
     "v8tools": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "memwatch": "*",
+    "async": "*",
+    "express": "*",
+    "socket.io": "*", 
+    "redis": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "mysql": "*",
+    "pg": "*",
+    "memcached": "*",
+    "memcache": "*",
+    "cassandra-client": "*",
+    "cassandra": "*"
   },
   "engines": { 
     "node" : ">=0.6.0" 

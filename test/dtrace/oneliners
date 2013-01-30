@@ -1,2 +1,0 @@
-sudo dtrace -Z -n 'nodetime*:::api-call-done{ trace(arg0); trace(copyinstr(arg1)); trace(copyinstr(arg2)); }'
-
