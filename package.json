@@ -1,6 +1,6 @@
 {   
   "name" : "nodetime", 
-  "version" : "0.8.5",
+  "version" : "0.8.6",
   "description" : "Performance Profiler and Monitor",
   "author": "Nodetime <devops@nodetime.com>",
   "homepage": "http://nodetime.com", 
